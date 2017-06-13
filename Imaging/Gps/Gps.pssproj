@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>6CAFC0C6-A428-4d30-A9F9-700E829FEA51</ProjectGuid>
+    <ProjectGuid>{f8f362dc-e2fb-487a-9077-d09b7ee0e208}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>MyApplication</RootNamespace>
     <AssemblyName>MyApplication</AssemblyName>
-    <Name>Imaging</Name>
+    <Name>Gps</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -26,12 +26,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Compile Include="Helper-base.ps1" />
-    <Compile Include="Imaging.psd1" />
-    <Compile Include="Imaging.psm1" />
-    <Compile Include="Imaging.tests.ps1" />
-    <Compile Include="JamesOne-Example.ps1" />
+    <Compile Include="Gps.psd1" />
+    <Compile Include="Gps.psm1" />
+    <Compile Include="Gps.tests.ps1" />
+    <Compile Include="tagging-support.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
