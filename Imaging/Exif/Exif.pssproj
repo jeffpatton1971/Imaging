@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{b3c4164b-9f6f-477f-855f-c236569ad3a4}</ProjectGuid>
+    <ProjectGuid>{4eda6277-5037-4c1d-876c-8a33ea6fa0a0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>MyApplication</RootNamespace>
     <AssemblyName>MyApplication</AssemblyName>
-    <Name>Filtering</Name>
+    <Name>Exif</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -26,18 +26,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Compile Include="add-conversionFilter.ps1" />
-    <Compile Include="Add-CropFilter.ps1" />
-    <Compile Include="add-ExifFilter.ps1" />
-    <Compile Include="Add-OverlayFilter.ps1" />
-    <Compile Include="Add-RotateFlipFilter.ps1" />
-    <Compile Include="Add-ScaleFilter.ps1" />
-    <Compile Include="Filtering.psd1" />
-    <Compile Include="Filtering.psm1" />
-    <Compile Include="Filtering.tests.ps1" />
-    <Compile Include="Set-ImageFilter.ps1" />
+    <Content Include="Exif-Data.xlsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Exif.psd1" />
+    <Compile Include="Exif.psm1" />
+    <Compile Include="Exif.tests.ps1" />
+    <Compile Include="get-exif.ps1" />
+    <Compile Include="get-PentaxMakerNote.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />

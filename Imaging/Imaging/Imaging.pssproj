@@ -39,7 +39,6 @@
     <Compile Include="JamesOne-Example.ps1" />
     <Compile Include="new-overlay.ps1" />
     <Compile Include="save-image.ps1" />
-    <Compile Include="Set-ImageFilter.ps1" />
     <Compile Include="tagging-support.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
