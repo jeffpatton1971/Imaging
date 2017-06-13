@@ -31,7 +31,6 @@
     <Compile Include="Gps.psd1" />
     <Compile Include="Gps.psm1" />
     <Compile Include="Gps.tests.ps1" />
-    <Compile Include="tagging-support.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
