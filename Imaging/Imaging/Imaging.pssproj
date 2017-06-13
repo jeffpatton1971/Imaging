@@ -27,18 +27,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Exif-Data.xlsx" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="ConvertTo-Bitmap.ps1" />
     <Compile Include="ConvertTo-Jpeg.ps1" />
     <Compile Include="copy-image.ps1" />
-    <Compile Include="get-exif.ps1" />
     <Compile Include="Get-Image.ps1" />
     <Compile Include="get-indexedItem.ps1" />
-    <Compile Include="get-PentaxMakerNote.ps1" />
     <Compile Include="Helper-base.ps1" />
     <Compile Include="Imaging.psd1" />
+    <Compile Include="Imaging.psm1" />
     <Compile Include="Imaging.tests.ps1" />
     <Compile Include="JamesOne-Example.ps1" />
     <Compile Include="new-overlay.ps1" />
