@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Imaging", "Imaging\Imaging.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Imaging", "Imaging.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
 EndProject
-Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Gps", "Imaging\Gps\Gps.pssproj", "{F8F362DC-E2FB-487A-9077-D09B7EE0E208}"
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Gps", "Gps\Gps.pssproj", "{F8F362DC-E2FB-487A-9077-D09B7EE0E208}"
 EndProject
-Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Filtering", "Imaging\Filtering\Filtering.pssproj", "{B3C4164B-9F6F-477F-855F-C236569AD3A4}"
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Filtering", "Filtering\Filtering.pssproj", "{B3C4164B-9F6F-477F-855F-C236569AD3A4}"
 EndProject
-Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Exif", "Imaging\Exif\Exif.pssproj", "{4EDA6277-5037-4C1D-876C-8A33EA6FA0A0}"
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Exif", "Exif\Exif.pssproj", "{4EDA6277-5037-4C1D-876C-8A33EA6FA0A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
